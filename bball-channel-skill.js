@@ -9,7 +9,7 @@ const LaunchRequestHandler = {
     // with the  invocation name, but does not provide any utterance
     // mapping to an intent.
     // For Example, "Open code academy"
-    const speakOutput = 'Welcome to Codecademy';
+    const speakOutput = languageStrings.en.translation.WELCOME_MESSAGE;
 
     // The response builder contains is an object that handles generating the
     // JSON response that your skill returns.
@@ -27,7 +27,7 @@ const HelloHandler = {
   handle(handlerInput) {
     // This is text that Alexa will speak back
     // when the user says, "Ask code academy to say hello"
-    const speakOutput = 'Hello Codecademy';
+    const speakOutput = 'Hello my name is Dubby! Ask me when the next game is and I will tell you who the Golden State Warriors play next!';
 
     // The response builder contains is an object that handles generating the
     // JSON response that your skill returns.
